@@ -8,8 +8,8 @@ def tokenize(text: str) -> list[str]:
     return arr
 
 
-raw = "The Reserve Bank of Australia (RBA) came into being on 14 January 1960"
-normalized=normalize(raw)
-tokens=tokenize(normalized)
-print(normalized)
-print(tokens)
+# raw = "The Reserve Bank of Australia (RBA) came into being on 14 January 1960"
+# normalized=normalize(raw)
+# tokens=tokenize(normalized)
+# print(normalized)
+# print(tokens)

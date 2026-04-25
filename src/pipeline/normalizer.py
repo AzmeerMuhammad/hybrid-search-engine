@@ -17,11 +17,11 @@ def normalize(text: str) -> str:
     text=text.strip()
     return text
 
-with open("data/raw/collection.tsv", encoding="utf-8") as f:
-    for i, line in enumerate(f):
-        _, text = line.strip().split("\t", 1)
-        print(f"BEFORE: {text[:100]}")
-        print(f"AFTER:  {normalize(text)[:100]}")
-        print()
-        if i == 9:
-            break
+# with open("data/raw/collection.tsv", encoding="utf-8") as f:
+#     for i, line in enumerate(f):
+#         _, text = line.strip().split("\t", 1)
+#         print(f"BEFORE: {text[:100]}")
+#         print(f"AFTER:  {normalize(text)[:100]}")
+#         print()
+#         if i == 9:
+#             break

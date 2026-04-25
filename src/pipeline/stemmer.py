@@ -6,5 +6,5 @@ def stem(tokens:list[str])->list[str]:
         arr.append(ps.stem(token))
     return arr
 
-tokens=['reserve', 'bank', 'australia', 'rba', 'came', 'january', 'running', 'banks', 'studies']
-print(stem(tokens))
+# tokens=['reserve', 'bank', 'australia', 'rba', 'came', 'january', 'running', 'banks', 'studies']
+# print(stem(tokens))

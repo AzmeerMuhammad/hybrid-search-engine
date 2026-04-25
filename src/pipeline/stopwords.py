@@ -8,8 +8,8 @@ def remove_stopwords(tokens:list[str])->list[str]:
             arr.append(token)
     return arr
 
-tokens = ['the', 'reserve', 'bank', 'of', 'australia', 'rba', 'came', 'into', 'being', 'on', 'january']
-print(remove_stopwords(tokens))
+# tokens = ['the', 'reserve', 'bank', 'of', 'australia', 'rba', 'came', 'into', 'being', 'on', 'january']
+# print(remove_stopwords(tokens))
 
 #using list comp
 # return [token for token in tokens if token not in sw]
