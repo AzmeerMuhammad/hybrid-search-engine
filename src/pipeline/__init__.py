@@ -1,7 +1,7 @@
-from normalizer import normalize
-from tokenizer import tokenize
-from stopwords import remove_stopwords
-from stemmer import stem
+from .normalizer import normalize
+from .tokenizer import tokenize
+from .stopwords import remove_stopwords
+from .stemmer import stem
 
 class TextPipeline:
     def __init__(self):
@@ -14,7 +14,7 @@ class TextPipeline:
         return tokens
 
 
-raw="The Reserve Bank of Australia (RBA) came into being on 14 January 1960!"
-pipeline=TextPipeline()
-print(pipeline.process(raw))
+# raw="The Reserve Bank of Australia (RBA) came into being on 14 January 1960!"
+# pipeline=TextPipeline()
+# print(pipeline.process(raw))
 

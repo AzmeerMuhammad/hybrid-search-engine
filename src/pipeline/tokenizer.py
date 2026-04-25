@@ -1,4 +1,4 @@
-from normalizer import normalize
+from .normalizer import normalize
 
 def tokenize(text: str) -> list[str]:
     arr=[]
