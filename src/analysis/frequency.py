@@ -42,3 +42,5 @@ plt.tight_layout()
 plt.savefig("data/processed/top_terms.png")
 # Show it
 plt.show()
+
+print(f"Unique terms: {len(top_terms)}")

@@ -16,5 +16,6 @@ class TextPipeline:
 
 # raw="The Reserve Bank of Australia (RBA) came into being on 14 January 1960!"
 # pipeline=TextPipeline()
-# print(pipeline.process(raw))
+# print("raw:",raw)
+# print("processed:",pipeline.process(raw))
 
