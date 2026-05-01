@@ -3,3 +3,8 @@ data/raw/
 data/processed/
 data/indexes/
 __pycache__/
+data/processed/
+data/*.db
+data/*.db-shm
+data/*.db-wal
+*.pyc
