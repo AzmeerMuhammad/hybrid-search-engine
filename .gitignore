@@ -7,4 +7,5 @@ data/processed/
 data/*.db
 data/*.db-shm
 data/*.db-wal
+data/embeddings/
 *.pyc
